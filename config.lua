@@ -5,6 +5,7 @@ Config.DurabilityBlockedWeapons = {
     "weapon_nightstick",
     "weapon_flashlight",
     "weapon_unarmed",
+    "weapon_beanbag"
 }
 
 Config.DurabilityMultiplier = {
