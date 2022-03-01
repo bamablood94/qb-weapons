@@ -314,6 +314,30 @@ QBCore.Functions.CreateUseableItem('emp_ammo', function(source, item)
     TriggerClientEvent('weapon:client:AddAmmo', source, 'AMMO_EMPLAUNCHER', 10, item)
 end)
 
+QBCore.Functions.CreateUseableItem('beanbag_ammo', function(source, item)
+    TriggerClientEvent('weapon:client:AddAmmo', source, 'AMMO_BEANBAG', 10, item)
+end)
+
+QBCore.Functions.CreateUseableItem('rpg_ammo', function(source, item)
+    TriggerClientEvent('weapon:client:AddAmmo', source, 'AMMO_RPG', 5, item)
+end)
+
+QBCore.Functions.CreateUseableItem('taser_ammo', function (source, item)
+    TriggerClientEvent('weapon:client:AddAmmo', source, 'AMMO_TASER', 3, item)
+end)
+
+QBCore.Functions.CreateUseableItem('grenadelauncher_ammo', function (source, item)
+    TriggerClientEvent('weapon:client:AddAmmo', source, 'AMMO_GRENADELAUNCHER', 5, item)
+end)
+
+QBCore.Functions.CreateUseableItem('minigun_ammo', function (source, item)
+    TriggerClientEvent('weapon:client:AddAmmo', source, 'AMMO_MINIGUN', 100, item)
+end)
+
+QBCore.Functions.CreateUseableItem('firework_ammo', function (source, item)
+    TriggerClientEvent('weapon:client:AddAmmo', source, 'AMMO_STINGER', 5, item)
+end)
+
 -- TINTS
 QBCore.Functions.CreateUseableItem('weapontint_black', function(source)
     TriggerClientEvent('weapons:client:EquipTint', source, 0)
@@ -767,3 +791,574 @@ end)
 QBCore.Functions.CreateUseableItem('snspistol_luxuryfinish', function(source, item)
     TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'luxuryfinish')
 end)
+
+QBCore.Functions.CreateUseableItem('smg_suppressor', function(source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'suppressor')
+end)
+
+
+
+--GLOCK17 ATTACHMENTS
+QBCore.Functions.CreateUseableItem('g17_defaultclip', function(source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, '17rnddefaultclip')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_extendedclip', function(source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, '17rndextendedclip')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_drum', function(source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, '21rndclip')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_feed', function(source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, '33rndclip')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_drumfed', function(source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, '50rnddrum')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_flashlight1', function(source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'flashlight1')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_flashlight2', function(source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'flashlight2')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_flashlight3', function(source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'flashlight3')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_flashlight4', function(source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'flashlight4')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_suppressor1', function(source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'suppressor1')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_suppressor2', function(source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'suppressor2')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_suppressor3', function(source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'suppressor3')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_suppressor4', function(source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'suppressor4')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_suppressor5', function(source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'suppressor5')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_suppressor6', function(source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'suppressor6')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_suppressor7', function(source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'suppressor7')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_suppressor8', function(source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'suppressor8')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_suppressor9', function(source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'suppressor9')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_barrel1', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'barrel1')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_barrel2', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'barrel2')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_barrel3', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'barrel3')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_barrel4', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'barrel4')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_barrel5', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'barrel5')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_barrel6', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'barrel6')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_barrel7', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'barrel7')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_frame1', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'frame1')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_frame2', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'frame2')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_frame3', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'frame3')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_frame4', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'frame4')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_frame5', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'frame5')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_slide1', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'slide1')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_slide2', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'slide2')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_slide3', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'slide3')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_slide4', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'slide4')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_slide5', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'slide5')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_slide6', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'slide6')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_slide7', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'slide7')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_slide8', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'slide8')
+end)
+
+QBCore.Functions.CreateUseableItem('g17_slide9', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'slide9')
+end)
+
+
+--M870 ATTACHMENTS
+QBCore.Functions.CreateUseableItem('m870_barrel1', function (source, item)
+    TriggerClientEvent('weapopns:client:EquipAttachment', source, item, 'barrel1')
+end)
+
+QBCore.Functions.CreateUseableItem('m870_barrel2', function (source, item)
+    TriggerClientEvent('weapopns:client:EquipAttachment', source, item, 'barrel2')
+end)
+
+QBCore.Functions.CreateUseableItem('m870_barrel3', function (source, item)
+    TriggerClientEvent('weapopns:client:EquipAttachment', source, item, 'barrel3')
+end)
+
+QBCore.Functions.CreateUseableItem('m870_barrel4', function (source, item)
+    TriggerClientEvent('weapopns:client:EquipAttachment', source, item, 'barrel4')
+end)
+
+QBCore.Functions.CreateUseableItem('m870_barrel5', function (source, item)
+    TriggerClientEvent('weapopns:client:EquipAttachment', source, item, 'barrel5')
+end)
+
+QBCore.Functions.CreateUseableItem('m870_barrel6', function (source, item)
+    TriggerClientEvent('weapopns:client:EquipAttachment', source, item, 'barrel6')
+end)
+
+QBCore.Functions.CreateUseableItem('m870_barrel7', function (source, item)
+    TriggerClientEvent('weapopns:client:EquipAttachment', source, item, 'barrel7')
+end)
+
+QBCore.Functions.CreateUseableItem('m870_4rndmag', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, '4rndmag')
+end)
+
+QBCore.Functions.CreateUseableItem('m870_7rndmag', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, '7rndmag')
+end)
+
+QBCore.Functions.CreateUseableItem('m870_12rndmag', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, '12rndmag')
+end)
+
+QBCore.Functions.CreateUseableItem('m870_handguard1', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'handguard1')
+end)
+
+QBCore.Functions.CreateUseableItem('m870_handguard2', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'handguard2')
+end)
+
+QBCore.Functions.CreateUseableItem('m870_handguard3', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'handguard3')
+end)
+
+QBCore.Functions.CreateUseableItem('m870_scope1', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'scope1')
+end)
+
+QBCore.Functions.CreateUseableItem('m870_scope2', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'scope2')
+end)
+
+QBCore.Functions.CreateUseableItem('m870_scope3', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'scope3')
+end)
+
+QBCore.Functions.CreateUseableItem('m870_scope4', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'scope4')
+end)
+
+QBCore.Functions.CreateUseableItem('m870_stock1', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'stock1')
+end)
+
+QBCore.Functions.CreateUseableItem('m870_stock2', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'stock2')
+end)
+
+QBCore.Functions.CreateUseableItem('m870_stock3', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'stock3')
+end)
+
+QBCore.Functions.CreateUseableItem('m870_stock4', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'stock4')
+end)
+
+QBCore.Functions.CreateUseableItem('m870_stock5', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'stock5')
+end)
+
+QBCore.Functions.CreateUseableItem('m870_stock6', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'stock6')
+end)
+
+
+--MK18 ATTACHMENTS
+QBCore.Functions.CreateUseableItem('mk18_suppressor1', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'suppressor1')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_suppressor2', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'suppressor2')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_suppressor3', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'suppressor3')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_suppressor4', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'suppressor4')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_suppressor5', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'suppressor5')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_suppressor6', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'suppressor6')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_black30rndmag1', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source ,item ,'black30rndmag1')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_black30rndmag2', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source ,item ,'black30rndmag2')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_tan30rndmag1', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source ,item ,'tan30rndmag1')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_black30rndmag3', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source ,item ,'black30rndmag3')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_tam30rndmag2', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source ,item ,'tan30rndmag2')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_black60rndmag', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source ,item ,'black60rndmag')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_black60rnddrum', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source ,item ,'black60rnddrum')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_tanflashlight1', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source ,item ,'tanflashlight1')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_tanflashlight2', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source ,item ,'tanflashlight2')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_tanflashlight3', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source ,item ,'tanflashlight3')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_blackflashlight1', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source ,item ,'blackflashlight1')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_blackflashlight2', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source ,item ,'blackflashlight2')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_tanflashlight4', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source ,item ,'tanflashlight4')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_tanflashlight5', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source ,item ,'tanflashlight5')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_frame1', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'frame1')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_frame2', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'frame2')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_frame3', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'frame3')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_scope1', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'scope1')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_scope2', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'scope2')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_scope3', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'scope3')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_scope4', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'scope4')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_scope5', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'scope5')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_scope6', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'scope6')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_scope7', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'scope7')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_scope8', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'scope8')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_scope9', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'scope9')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_stock1', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'stock1')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_stock2', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'stock2')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_stock3', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'stock3')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_stock4', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'stock4')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_stock5', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'stock5')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_stock6', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'stock6')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_stock7', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'stock7')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_grip1', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'grip1')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_grip2', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'grip2')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_grip3', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'grip3')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_grip4', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'grip4')
+end)
+
+QBCore.Functions.CreateUseableItem('mk18_grip5', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'grip5')
+end)
+
+--STAFF
+QBCore.Functions.CreateUseableItem('staff_luxfinish1', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'luxfinish1')
+end)
+
+QBCore.Functions.CreateUseableItem('staff_luxfinish2', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'luxfinish2')
+end)
+
+QBCore.Functions.CreateUseableItem('staff_luxfinish3', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'luxfinish3')
+end)
+
+QBCore.Functions.CreateUseableItem('staff_luxfinish4', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'luxfinish4')
+end)
+
+QBCore.Functions.CreateUseableItem('staff_luxfinish5', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'luxfinish5')
+end)
+
+QBCore.Functions.CreateUseableItem('staff_luxfinish6', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'luxfinish6')
+end)
+
+QBCore.Functions.CreateUseableItem('staff_luxfinish7', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'luxfinish7')
+end)
+
+QBCore.Functions.CreateUseableItem('staff_luxfinish8', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'luxfinish8')
+end)
+
+QBCore.Functions.CreateUseableItem('staff_luxfinish9', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'luxfinish9')
+end)
+
+QBCore.Functions.CreateUseableItem('staff_luxfinish10', function (source, item)
+    TriggerClientEvent('weapons:client:EquipAttachment', source, item, 'luxfinish10')
+end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

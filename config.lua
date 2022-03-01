@@ -5,7 +5,8 @@ Config.DurabilityBlockedWeapons = {
     "weapon_nightstick",
     "weapon_flashlight",
     "weapon_unarmed",
-    "weapon_beanbag"
+    "weapon_beanbag",
+    "weapon_g17"
 }
 
 Config.DurabilityMultiplier = {
@@ -135,6 +136,10 @@ Config.DurabilityMultiplier = {
 	['weapon_fireextinguisher'] 	= 0.15,
 	['weapon_hazardcan'] 			= 0.15,
     ['weapon_fertilizercan'] 		= 0.15,
+
+    --ADD-ON WEAPONS
+    ['weapon_mk18']                 =0.15,
+    ['weapon_m870']                 =0.15,
 }
 
 Config.WeaponRepairPoints = {
@@ -891,6 +896,516 @@ WeaponAttachments = {
         ['luxuryfinish'] = {
             component = 'COMPONENT_MARKSMANRIFLE_VARMOD_LUXE',
             item = 'marksmanrifle_luxuryfinish',
+        },
+    },
+    ['WEAPON_G17'] = {
+        ['17rnddefault'] = {
+            component = 'COMPONENT_G17_CLIP_01',
+            item = 'g17_17rnddefaultclip',
+            type = 'clip',
+        },
+        ['17rndextended'] = {
+            component = 'COMPONENT_G17_CLIP_02',
+            item = 'g17_17rndextendedclip',
+            type = 'clip',
+        },
+        ['21rnd'] = {
+            component = 'COMPONENT_G17_CLIP_03',
+            item = 'g17_21rndclip',
+            type = 'clip,'
+        },
+        ['33rnd'] = {
+            component = 'COMPONENT_G17_CLIP_04',
+            item = 'g17_33rndclip',
+            type = 'clip',
+        },
+        ['50rnd'] = {
+            component = 'COMPONENT_G17_CLIP_05',
+            item = 'g17_50rndclip',
+            type = 'clip',
+        },
+        ['flashlight1'] = {
+            component = 'COMPONENT_G17_FLASH_01',
+            item = 'g17_flashlight1',
+        },
+        ['flashlight2'] = {
+            component = 'COMPONENT_G17_FLASH_02',
+            item = 'g17_flashlight2',
+        },
+        ['flashlight3'] = {
+            component = 'COMPONENT_G17_FLASH_03',
+            item = 'g17_flashlight3',
+        },
+        ['flashlight4'] = {
+            component = 'COMPONENT_G17_FLASH_04',
+            item = 'g17_flashlight4',
+            type = 'flashlight'
+        },
+        ['suppressor1'] = {
+            component = 'COMPONENT_G17_SUPPRESSOR_01',
+            item = 'g17_suppressor1',
+            type = 'silencer'
+        },
+        ['suppressor2'] = {
+            component = 'COMPONENT_G17_SUPPRESSOR_02',
+            item = 'g17_suppressor2',
+            type = 'silencer'
+        },
+        ['suppressor3'] = {
+            component = 'COMPONENT_G17_SUPPRESSOR_03',
+            item = 'g17_suppressor3',
+            type = 'silencer'
+        },
+        ['suppressor4'] = {
+            component = 'COMPONENT_G17_SUPPRESSOR_04',
+            item = 'g17_suppressor4',
+            type = 'silencer'
+        },
+        ['suppressor5'] = {
+            component = 'COMPONENT_G17_SUPPRESSOR_05',
+            item = 'g17_suppressor5',
+            type = 'silencer'
+        },
+        ['suppressor6'] = {
+            component = 'COMPONENT_G17_SUPPRESSOR_06',
+            item = 'g17_suppressor6',
+            type = 'silencer'
+        },
+        ['suppressor7'] = {
+            component = 'COMPONENT_G17_SUPPRESSOR_07',
+            item = 'g17_suppressor7',
+            type = 'silencer'
+        },
+        ['suppressor8'] = {
+            component = 'COMPONENT_G17_SUPPRESSOR_08',
+            item = 'g17_suppressor8',
+            type = 'silencer'
+        },
+        ['suppressor9'] = {
+            component = 'COMPONENT_G17_SUPPRESSOR_09',
+            item = 'g17_suppressor9',
+            type = 'silencer'
+        },
+        ['barrel1'] = {
+            component = 'COMPONENT_G17_BARREL_01',
+            item = 'g17_barrel1',
+        },
+        ['barrel2'] = {
+            component = 'COMPONENT_G17_BARREL_02',
+            item = 'g17_barrel2',
+        },
+        ['barrel3'] = {
+            component = 'COMPONENT_G17_BARREL_03',
+            item = 'g17_barrel3',
+        },
+        ['barrel4'] = {
+            component = 'COMPONENT_G17_BARREL_04',
+            item = 'g17_barrel4',
+        },
+        ['barrel5'] = {
+            component = 'COMPONENT_G17_BARREL_05',
+            item = 'g17_barrel5',
+        },
+        ['barrel6'] = {
+            component = 'COMPONENT_G17_BARREL_06',
+            item = 'g17_barrel6',
+        },
+        ['barrel7'] = {
+            component = 'COMPONENT_G17_BARREL_07',
+            item = 'g17_barrel7',
+        },
+        ['frame1'] = {
+            component = 'COMPONENT_G17_FRAME_01',
+            item = 'g17_frame1',
+        },
+        ['frame2'] = {
+            component = 'COMPONENT_G17_FRAME_02',
+            item = 'g17_frame2',
+        },
+        ['frame3'] = {
+            component = 'COMPONENT_G17_FRAME_03',
+            item = 'g17_frame3',
+        },
+        ['frame4'] = {
+            component = 'COMPONENT_G17_FRAME_04',
+            item = 'g17_frame4',
+        },
+        ['frame5'] = {
+            component = 'COMPONENT_G17_FRAME_05',
+            item = 'g17_frame5',
+        },
+        ['slide1'] = {
+            component = 'COMPONENT_G17_SLIDE_01',
+            item = 'g17_slide1',
+            type = 'scope',
+        },
+        ['slide2'] = {
+            component = 'COMPONENT_G17_SLIDE_02',
+            item = 'g17_slide2',
+            type = 'scope',
+        },
+        ['slide3'] = {
+            component = 'COMPONENT_G17_SLIDE_03',
+            item = 'g17_slide3',
+            type = 'scope',
+        },
+        ['slide4'] = {
+            component = 'COMPONENT_G17_SLIDE_04',
+            item = 'g17_slide4',
+            type = 'scope',
+        },
+        ['slide5'] = {
+            component = 'COMPONENT_G17_SLIDE_05',
+            item = 'g17_slide5',
+            type = 'scope',
+        },
+        ['slide6'] = {
+            component = 'COMPONENT_G17_SLIDE_06',
+            item = 'g17_slide6',
+            type = 'scope',
+        },
+        ['slide7'] = {
+            component = 'COMPONENT_G17_SLIDE_07',
+            item = 'g17_slide7',
+            type = 'scope',
+        },
+        ['slide8'] = {
+            component = 'COMPONENT_G17_SLIDE_08',
+            item = 'g17_slide8',
+            type = 'scope',
+        },
+        ['slide9'] = {
+            component = 'COMPONENT_G17_SLIDE_09',
+            item = 'g17_slide9',
+            type = 'scope',
+        },
+    },
+    ['WEAPON_M870'] = {
+        ['barrel1'] ={
+            component = 'COMPONENT_m870_BARREL_01',
+            item = 'm870_barrel1'
+        },
+        ['barrel2'] ={
+            component = 'COMPONENT_m870_BARREL_02',
+            item = 'm870_barrel2'
+        },
+        ['barrel3'] ={
+            component = 'COMPONENT_m870_BARREL_03',
+            item = 'm870_barrel3'
+        },
+        ['barrel4'] ={
+            component = 'COMPONENT_m870_BARREL_04',
+            item = 'm870_barrel4'
+        },
+        ['barrel5'] ={
+            component = 'COMPONENT_m870_BARREL_05',
+            item = 'm870_barrel5'
+        },
+        ['barrel6'] ={
+            component = 'COMPONENT_m870_BARREL_06',
+            item = 'm870_barrel6'
+        },
+        ['barrel7'] ={
+            component = 'COMPONENT_m870_BARREL_07',
+            item = 'm870_barrel7'
+        },
+        ['4rndmag'] = {
+            component = 'COMPONENT_m870_CLIP_01',
+            item = 'm870_4rndmag',
+            type = 'clip'
+        },
+        ['7rndmag'] = {
+            component = 'COMPONENT_m870_CLIP_02',
+            item = 'm870_7rndmag',
+            type = 'clip'
+        },
+        ['12rndmag'] = {
+            component = 'COMPONENT_m870_CLIP_03',
+            item = 'm870_12rndmag',
+            type = 'clip'
+        },
+        ['handguard1'] = {
+            component = 'COMPONENT_m870_HANDGUARD_01',
+            item = 'm870_handguard1',
+        },
+        ['handguard2'] = {
+            component = 'COMPONENT_m870_HANDGUARD_02',
+            item = 'm870_handguard2',
+        },
+        ['handguard3'] = {
+            component = 'COMPONENT_m870_HANDGUARD_03',
+            item = 'm870_handguard3',
+        },
+        ['scope1'] = {
+            component = 'COMPONENT_m870_SCOPE_01',
+            item = 'm870_scope1',
+            type = 'scope'
+        },
+        ['scope2'] = {
+            component = 'COMPONENT_m870_SCOPE_02',
+            item = 'm870_scope2',
+            type = 'scope'
+        },
+        ['scope3'] = {
+            component = 'COMPONENT_m870_SCOPE_03',
+            item = 'm870_scope3',
+            type = 'scope'
+        },
+        ['scope4'] = {
+            component = 'COMPONENT_m870_SCOPE_04',
+            item = 'm870_scope4',
+            type = 'scope'
+        },
+        ['stock1'] = {
+            component = 'COMPONENT_m870_STOCK_01',
+            item = 'm870_stock1',
+        },
+        ['stock2'] = {
+            component = 'COMPONENT_m870_STOCK_02',
+            item = 'm870_stock2',
+        },
+        ['stock3'] = {
+            component = 'COMPONENT_m870_STOCK_03',
+            item = 'm870_stock3',
+        },
+        ['stock4'] = {
+            component = 'COMPONENT_m870_STOCK_04',
+            item = 'm870_stock4',
+        },
+        ['stock5'] = {
+            component = 'COMPONENT_m870_STOCK_05',
+            item = 'm870_stock5',
+        },
+        ['stock6'] = {
+            component = 'COMPONENT_m870_STOCK_06',
+            item = 'm870_stock6',
+        },
+    },
+    ['WEAPON_MK18'] = {
+        ['suppressor1'] = {
+            component = 'COMPONENT_MK18_suppressor_01',
+            item = 'mk18_suppressor1',
+        },
+        ['suppressor2'] = {
+            component = 'COMPONENT_MK18_suppressor_02',
+            item = 'mk18_suppressor2',
+        },
+        ['suppressor3'] = {
+            component = 'COMPONENT_MK18_suppressor_03',
+            item = 'mk18_suppressor3',
+        },
+        ['suppressor4'] = {
+            component = 'COMPONENT_MK18_suppressor_04',
+            item = 'mk18_suppressor4',
+        },
+        ['suppressor5'] = {
+            component = 'COMPONENT_MK18_suppressor_05',
+            item = 'mk18_suppressor5',
+        },
+        ['suppressor6'] = {
+            component = 'COMPONENT_MK18_suppressor_06',
+            item = 'mk18_suppressor6',
+        },
+        ['black30rndmag1'] = {
+            component = 'COMPONENT_MK18_CLIP_01',
+            item = 'mk18_black30rndmag1',
+            type = 'clip',
+        },
+        ['black30rndmag2'] = {
+            component = 'COMPONENT_MK18_CLIP_01',
+            item = 'mk18_black30rndmag2',
+            type = 'clip',
+        },
+        ['tan30rndmag1'] = {
+            component = 'COMPONENT_MK18_CLIP_01',
+            item = 'mk18_tan30rndmag1',
+            type = 'clip',
+        },
+        ['black30rndmag3'] = {
+            component = 'COMPONENT_MK18_CLIP_01',
+            item = 'mk18_black30rndmag3',
+            type = 'clip',
+        },
+        ['tan30rndmag2'] = {
+            component = 'COMPONENT_MK18_CLIP_01',
+            item = 'mk18_tan30rndmag2',
+            type = 'clip',
+        },
+        ['black60rndmag'] = {
+            component = 'COMPONENT_MK18_CLIP_01',
+            item = 'mk18_black60rndmag',
+            type = 'clip',
+        },
+        ['black60rnddrum'] = {
+            component = 'COMPONENT_MK18_CLIP_01',
+            item = 'mk18_black60rnddrum',
+            type = 'clip',
+        },
+        ['tanflashlight1'] = {
+            component = 'COMPONENT_MK18_FLASH_01',
+            item = 'mk18_tanflashlight1',
+        },
+        ['tanflashlight2'] = {
+            component = 'COMPONENT_MK18_FLASH_02',
+            item = 'mk18_tanflashlight2',
+        },
+        ['tanflashlight3'] = {
+            component = 'COMPONENT_MK18_FLASH_03',
+            item = 'mk18_tanflashlight3',
+        },
+        ['balckflashlight1'] = {
+            component = 'COMPONENT_MK18_FLASH_04',
+            item = 'mk18_blackflashlight1',
+        },
+        ['blackflashlight2'] = {
+            component = 'COMPONENT_MK18_FLASH_05',
+            item = 'mk18_blackflashlight2',
+        },
+        ['tanflashlight4'] = {
+            component = 'COMPONENT_MK18_FLASH_06',
+            item = 'mk18_tanflashlight4',
+        },
+        ['tanflashlight5'] = {
+            component = 'COMPONENT_MK18_FLASH_07',
+            item = 'mk18_tanflashlight5',
+        },
+        ['frame1'] = {
+            component = 'COMPONENT_MK18_FRAME_01',
+            item = 'mk18_frame1',
+        },
+        ['frame2'] = {
+            component = 'COMPONENT_MK18_FRAME_02',
+            item = 'mk18_frame2',
+        },
+        ['frame3'] = {
+            component = 'COMPONENT_MK18_FRAME_03',
+            item = 'mk18_frame3',
+        },
+        ['scope1'] = {
+            component = 'COMPONENT_MK18_SCOPE_01',
+            item = 'mk18_scope1',
+        },
+        ['scope2'] = {
+            component = 'COMPONENT_MK18_SCOPE_02',
+            item = 'mk18_scope2',
+        },
+        ['scope3'] = {
+            component = 'COMPONENT_MK18_SCOPE_03',
+            item = 'mk18_scope3',
+        },
+        ['scope4'] = {
+            component = 'COMPONENT_MK18_SCOPE_04',
+            item = 'mk18_scope4',
+        },
+        ['scope5'] = {
+            component = 'COMPONENT_MK18_SCOPE_05',
+            item = 'mk18_scope5',
+        },
+        ['scope6'] = {
+            component = 'COMPONENT_MK18_SCOPE_06',
+            item = 'mk18_scope6',
+        },
+        ['scope7'] = {
+            component = 'COMPONENT_MK18_SCOPE_07',
+            item = 'mk18_scope7',
+        },
+        ['scope8'] = {
+            component = 'COMPONENT_MK18_SCOPE_08',
+            item = 'mk18_scope8',
+        },
+        ['scope9'] = {
+            component = 'COMPONENT_MK18_SCOPE_09',
+            item = 'mk18_scope9',
+        },
+        ['stock1'] = {
+            component = 'COMPONENT_MK18_STOCK_01',
+            item = 'mk18_stock1',
+        },
+        ['stock2'] = {
+            component = 'COMPONENT_MK18_STOCK_02',
+            item = 'mk18_stock2',
+        },
+        ['stock3'] = {
+            component = 'COMPONENT_MK18_STOCK_03',
+            item = 'mk18_stock3',
+        },
+        ['stock4'] = {
+            component = 'COMPONENT_MK18_STOCK_04',
+            item = 'mk18_stock4',
+        },
+        ['stock5'] = {
+            component = 'COMPONENT_MK18_STOCK_05',
+            item = 'mk18_stock5',
+        },
+        ['stock6'] = {
+            component = 'COMPONENT_MK18_STOCK_06',
+            item = 'mk18_stock6',
+        },
+        ['stock7'] = {
+            component = 'COMPONENT_MK18_STOCK_07',
+            item = 'mk18_stock7',
+        },
+        ['grip1'] = {
+            component = 'COMPONENT_MK18_GRIP_01',
+            item = 'mk18_grip1',
+        },
+        ['grip2'] = {
+            component = 'COMPONENT_MK18_GRIP_02',
+            item = 'mk18_grip2',
+        },
+        ['grip3'] = {
+            component = 'COMPONENT_MK18_GRIP_03',
+            item = 'mk18_grip3',
+        },
+        ['grip4'] = {
+            component = 'COMPONENT_MK18_GRIP_04',
+            item = 'mk18_grip4',
+        },
+        ['grip5'] = {
+            component = 'COMPONENT_MK18_GRIP_05',
+            item = 'mk18_grip5',
+        },
+    },
+    ['WEAPON_STAFF'] = {
+        ['luxfinish1'] = {
+            component = 'COMPONENT_STAFF_02',
+            item = 'staff_luxfinish1'
+        },
+        ['luxfinish2'] = {
+            component = 'COMPONENT_STAFF_03',
+            item = 'staff_luxfinish2'
+        },
+        ['luxfinish3'] = {
+            component = 'COMPONENT_STAFF_04',
+            item = 'staff_luxfinish3'
+        },
+        ['luxfinish4'] = {
+            component = 'COMPONENT_STAFF_05',
+            item = 'staff_luxfinish4'
+        },
+        ['luxfinish5'] = {
+            component = 'COMPONENT_STAFF_06',
+            item = 'staff_luxfinish5'
+        },
+        ['luxfinish6'] = {
+            component = 'COMPONENT_STAFF_07',
+            item = 'staff_luxfinish6'
+        },
+        ['luxfinish7'] = {
+            component = 'COMPONENT_STAFF_08',
+            item = 'staff_luxfinish7'
+        },
+        ['luxfinish8'] = {
+            component = 'COMPONENT_STAFF_09',
+            item = 'staff_luxfinish8'
+        },
+        ['luxfinish9'] = {
+            component = 'COMPONENT_STAFF_10',
+            item = 'staff_luxfinish9'
+        },
+        ['luxfinish10'] = {
+            component = 'COMPONENT_STAFF_11',
+            item = 'staff_luxfinish10'
         },
     },
 }
